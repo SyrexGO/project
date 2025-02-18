@@ -643,6 +643,10 @@ input[type=checkbox]:checked + label:before {
   background-color: #fff;
   border-radius: 10px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 140px;
 }
 .reviews-slider__text:after {
   content: "";
